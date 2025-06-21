@@ -4,6 +4,18 @@
 
 
 
+
+
+
+/*First headers added */
+/*Then main function added */
+/*Then if else statement is written */
+
+
+
+
+
+
 int main(void)
 {
 	int n;
