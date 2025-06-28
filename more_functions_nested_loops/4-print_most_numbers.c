@@ -1,25 +1,21 @@
 /*
- * File: 4-print_alphabt.c
+ * File: 4-print_most_numbers.c
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Prints the alphabet in lowercase, except for q and e.
- *
- * Return: Always 0.
+ * print_most_numbers - Prints the numbers from 0-9 except for 2 and 4.
  */
-int main(void)
+void print_most_numbers(void)
 {
-	char letter;
+	int num;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (num = 0; num <= 9; num++)
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		if (num != 2 && num != 4)
+			_putchar((num % 10) + '0');
 	}
 
-	putchar('\n');
-
-	return (0);
+	_putchar('\n');
 }
