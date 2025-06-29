@@ -1,12 +1,12 @@
 /*
- * File: 8-print_diagsums.c
+ * File: 8th file
  */
 
 #include "main.h"
 #include <stdio.h>
 
 /**
- * print_diagsums - Prints the sums of the two diagonals
+ * _print_diagsums - Prints the sums of the two diagonals
  *                  of a square matrix of integers.
  * Description: This function calculates the sum of the
  *              two diagonals in a square matrix of integers
