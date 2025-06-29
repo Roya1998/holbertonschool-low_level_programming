@@ -1,5 +1,5 @@
 /*
- * File: 9-strcpy
+ * File: task_9
  */
 
 #include "main.h"
