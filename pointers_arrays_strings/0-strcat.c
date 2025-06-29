@@ -5,8 +5,9 @@
 #include "main.h"
 
 /**
- *_strcat - Concatenates the string pointed to by @src, including the terminating
- *          null byte, to the end of the string pointed to by @dest.
+ * _strcat - Concatenates the string pointed to by @src, including the
+ *           terminating null byte, to the end of the string pointed to
+ *           by @dest.
  * @dest: A pointer to the string to be concatenated upon.
  * @src: The source string to be appended to @dest.
  *
@@ -16,11 +17,17 @@ char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
-	while (dest[index++])
+	while (dest[dest_len])
 		dest_len++;
 
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+	while (src[index])
+	{
+		dest[dest_len] = src[index];
+		dest_len++;
+		index++;
+	}
+
+	dest[dest_len] = '\0';
 
 	return (dest);
 }
