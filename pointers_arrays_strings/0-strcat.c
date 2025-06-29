@@ -1,5 +1,5 @@
 /*
- * File: 0-strcat.c
+ * File: 0th file
  */
 
 #include "main.h"
@@ -12,7 +12,7 @@
  *
  * Return: A pointer to the destination string @dest.
  */
-char *strcat(char *dest, const char *src)
+char *strcat(char *dest,  char *src)
 {
 	int index = 0, dest_len = 0;
 
