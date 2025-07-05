@@ -15,9 +15,9 @@
  */
 struct dog
 {
-	char *name;
-	float age;
-	char *owner;
+        char *name;
+        float age;
+        char *owner;
 };
 
 /**
@@ -31,3 +31,41 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
 #endif
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+~                                                                                                                                                                                                                                                 
+"dog.h" 33L, 589B                                                                                                                                                                                                               33,6          All
