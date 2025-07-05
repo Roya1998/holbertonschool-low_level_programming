@@ -1,5 +1,6 @@
 /*
- * File: 0th task*/
+ * File: 0th file
+ */
 
 #include "main.h"
 #include <stdlib.h>
